@@ -1,0 +1,7 @@
+#!/bin/env fontforge
+Open($1)
+SelectAll()
+ScaleToEm($2)
+Generate($1:r + "-" + $2 + ".ttf")
+Close()
+

@@ -1,0 +1,7 @@
+#!/bin/env fontforge
+Open($1)
+SelectAll()
+MergeFonts($2)
+SetFontNames($3 + "TerminalMono", $3 + "Terminal Mono", $3 + "Terminal Mono", "Regular")
+Generate($3 + "-terminal-mono.ttf")
+Close()

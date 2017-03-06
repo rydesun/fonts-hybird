@@ -1,0 +1,4 @@
+#!/bin/env fontforge
+Open($1 + "(文泉驿微米黑)")
+Generate("wqy-microhei.ttf")
+Close()
